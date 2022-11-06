@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", "sans-serif";
+    font-size: 15px;
+}
+
+.head-part {
+    background-color:#171E28;
+    width: 340px;
+    height: 320px;
+    padding: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+
+
+}
+
+
+
+.icon-star {
+    text-align: center;
+    background-color: #262F38;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+}
+
+.paragraph-num {
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.paragraph-num > span {
+    text-align: center;
+    display: inline-block;
+    background-color: #262F38;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.paragraph {
+
+    color: hsl(217, 12%, 63%);
+    text-align: left;
+}
+
+.submit-btn {
+    letter-spacing: 0.1em;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 140px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.submit-btn:active {
+    position: relative;
+    top: 1px;
+}
+
